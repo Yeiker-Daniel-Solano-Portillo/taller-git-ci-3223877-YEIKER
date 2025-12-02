@@ -19,8 +19,10 @@
     <p>Este es mi primer taller con Git y CI.</p>
     
     <ul id="lista"></ul>
-    
-    <button onclick="agregarItem('Nuevo item')">Agregar</button>
+
+    <input type="text" id="nuevoItem" placeholder="Escribe un item aquí">
+    <button onclick="agregarItemDesdeInput()">Agregar Item</button>
+    <button onclick="limpiarLista()">Limpiar Lista</button>
     
     <script src="app.js"></script>
 </body>
