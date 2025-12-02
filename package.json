@@ -1,16 +1,16 @@
 {
-  "name": "taller-git-ci",
-  "version": "1.0.0",
-  "description": "Taller práctico de Git y CI",
-  "main": "src/app.js",
-  "scripts": {
-    "test": "node tests/suma.test.js",
-    "format": "prettier --write .",
-    "format-check": "prettier --check ."
-  },
-  "devDependencies": {
-    "prettier": "^3.0.0"
-  },
-  "author": "YEIKER",
-  "license": "ISC"
+    "name": "taller-git-ci",
+    "version": "1.0.0",
+    "description": "Taller práctico de Git y CI",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "node tests/suma.test.js",
+        "format": "prettier --write .",
+        "format-check": "prettier --check ."
+    },
+    "devDependencies": {
+        "prettier": "^3.7.3"
+    },
+    "author": "YEIKER",
+    "license": "ISC"
 }
